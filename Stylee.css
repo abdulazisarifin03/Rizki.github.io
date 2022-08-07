@@ -1,0 +1,170 @@
+* {
+  text-decoration : none;
+  margin : 0px;
+  padding : 0px;
+}
+body {
+  margin : 0px;
+  padding : 0px;
+  font-family : 'Open Sans',sans-serif;
+}
+.wrapper {
+  width : 1000px;
+  margin : auto;
+  position : relative;
+  }
+.gambar{
+  opacity:0.9;
+  float:center;
+  left margin: 8px;
+}
+.marquee{
+  font-family: Courier New;
+}
+ .logo a {
+  font-size : 47px;
+  font-weight: bold;
+  float : left;
+  font-family: Courier New;
+  color : powdergreen;
+}
+.menu {
+  float : right;
+  font-size: 16px;
+  display: inline;
+}
+nav {
+  width :100%;
+  margin :auto;
+  display :flex;
+  line-height: 23px;
+  position: sticky;
+  position: -webkit-sticky;
+  top :0;
+  background: #FFFFFF;
+  z-index: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin : 5;
+  padding : 5;
+  overflow: hidden;
+  background-color: flex;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  color : black;
+  font-weight: bold;
+  text-align: center;
+  padding :2px 10px 2px 10px;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+} 
+section {
+  margin :auto;
+  display : flex;
+  margin-bottom: 50px;
+}
+.kolom {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 1050px;
+  text-align: center;
+  text-decoration: none;
+}
+.kolom.deskripsi{
+  font-size: 50px;
+  font-weight: bold;
+  font-family:'comic sans-ms';
+  color : #364f6b;
+  text-align: left;
+}
+h2 {
+   font-family:'comic sans-ms';
+   font-weight : 500px;
+   font-size: 38px;
+   margin-bottom: 20px;
+   color : #364f6b;
+   width : 100%;
+   line-height: 50px;
+}
+h1 {
+  font-size: 20px;
+  font-family: Courier;
+  line-height: 20px;
+}
+h3{
+  font-size: 20px;
+  font-family: Sans-Serif;
+  line-height : 30px;
+}
+@media screen and (max-width :991.98px){
+  .wrapper {
+    width :90%;
+  }
+  .logo {
+    display: block;
+    width: 90%;
+    text-align: center;
+  }
+  nav .menu {
+    width :100%;
+    margin :0;
+  }
+  nav .menu ul {
+    text-align: center;
+    margin :auto;
+    line-height: 20px;
+  }
+  nav .menu ul li{
+    display :inline-block;
+    float :none;
+  }
+  .kolom {
+    display: block;
+    text-align: left;
+    float : left;
+    font-size: 20px;
+  }
+  
+}
+
+a.tbl-biru {
+  background: #3f72af;
+  border-radius: 60px;
+  margin-top: 60px;
+  padding :20px 25px 20px 25px;
+  color : #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+}
+a.tbl-biru:hover{
+  background: #fc5185;
+  text-decoration: none;
+}
+.aktip {
+  color :#fc5185;
+}
+.lokasi{
+  text-decoration: none;
+  color :#3f72af;
+  font-size: 30px;
+}
+.alamat {
+  font-family: Sans-Serif;
+  font-size: 25px;
+  color: black;
+}
+.doa {
+  width : 400;
+}
+.form {
+  background-color: :#3f72af;
+}
+.azis {
+  float: left;
+}
